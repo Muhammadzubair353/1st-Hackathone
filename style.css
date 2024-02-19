@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 500px;
+    background-image: url(./Assets/banner_bg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.anf{
+    position: absolute;
+    right: 0%;
+}
+.anf-logo{
+    position: absolute;
+    right: 11%;
+    top: 40%;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .anf{   
+        display: none !important;
+    }
+    .anf-logo{
+        display: none!important;
+    
+}
+}
