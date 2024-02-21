@@ -20,6 +20,9 @@
     right: 11%;
     top: 40%;
 }
+.one{
+    display: none;
+}
 
 
 
@@ -29,7 +32,12 @@
         display: none !important;
     }
     .anf-logo{
+        display: none !important;
+    }
+    .one{
+        display: block !important;
+    }
+    .two{
         display: none!important;
-    
-}
+    }
 }

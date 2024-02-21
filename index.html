@@ -9,9 +9,9 @@
   </head>
   <body>
     <div class="container-fluid">
-    <header class="header d-flex justify-content-between px-8">
+    <header class="header d-flex justify-content-between align-items-center px-8" >
         <a class="navbar-brand" href="#"><img src="./Assets/main logo.jpg" alt="" height="50"></a>
-    <nav class="navbar sticky-lg-top  navbar-expand-lg navbar-light bg-white d-flex justify-content-between">
+    <nav class="navbar sticky-lg-top  navbar-expand-lg navbar-light bg-white d-flex justify-content-between align-items-start">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -19,13 +19,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: small;gap: 10px;">
               <li class="nav-item text-center" >
-                <a class="nav-link active" aria-current="page" href="#"><img src="./Assets/complaint_comp.svg" alt="" width="25"> <br> Beware! Reported Companies</a>
+                <a class="nav-link active" aria-current="page" href="#"><img src="./Assets/complaint_comp.svg" alt="" width="20"> <br> Beware! Reported Companies</a>
               </li>
               <li class="nav-item text-center">
-                <a class="nav-link" href="#"><img src="./Assets/nav-review.png" alt="" width="20"> <br> Free CV Review</a>
+                <a class="nav-link" href="#"><img src="./Assets/nav-review.png" alt="" width="15"> <br> Free CV Review</a>
               </li>
               <li class="nav-item text-center">
-                <a class="nav-link" href="#"><img src="./Assets/nav-download.gif" alt="" width="20"> <br> Mobile App</a>
+                <a class="nav-link" href="#"><img src="./Assets/nav-download.gif" alt="" width="15"> <br> Mobile App</a>
               </li>
               <li class="nav-item text-center">
                 <a class="nav-link" href="#"><i class="fa-solid fa-right-to-bracket"></i> <br> Login</a>
@@ -44,6 +44,8 @@
                   <li><a class="dropdown-item" href="#">Other</a></li>
                 </ul>
               </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: small;gap: 10px;">
               <li class="nav-item text-center"><button type="button" class="btn btn-success">Post a Job</button></li>
               <li class="nav-item text-center"><button type="button" class="btn btn-primary">Hire a Freelancer</button></li>
               <li class="nav-item text-center"><button type="button" class="btn btn-info">Employers</button></li>
@@ -54,12 +56,28 @@
     </nav>
     </header>
     <div class="container-fluid main d-flex  flex-column align-items-end">
-        .
         <div class="anf">
             <img src="./Assets/anf_bg.webp" alt="anf" height="500">
         </div>
         <div class="anf-logo">
             <img src="./Assets/anf_logo.png" alt="anf" height="auto">
+        </div>
+        <div class="my-5 text-center text-white w-100">
+          <img class="d-block mx-auto mb-4" src="./Assets/job-you-love.svg" alt="" width="45%">
+          <div class="col-lg-6 m-auto">
+            <form class="w-100">
+              <input type="search" name="search"  placeholder=" Job title, Skill or Company"  aria-label="Search" id="searchInput" style="width: 75%; height: 50px;">
+              <button class="btn btn-primary px-3 two" style="height: 50px; border-radius: 0%;" type="button">Search</button><br>
+              <input class="one" type="search" name="number"  placeholder=" City"  aria-label="Search" id="searchInput" style="width: 75%; height: 50px;">
+              <input class="one" type="search" name="number"  placeholder=" Min. Salary"  aria-label="Search" id="searchInput" style="width: 75%; height: 50px;">
+            </form>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary btn-lg" type="button" style="border-radius: 0%;">Search</button>
+            </div>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-outline-secondary btn-lg p-4 m-5" style="border-radius:100%;"><img src="./Assets/freecviconrozee.png" alt=""> <br> Upload CV</button>
+            </div>
+          </div>
         </div>
     </div>
     
